@@ -9,7 +9,7 @@
 <style type="text/css">
    #log{
       text-align: right;
-      margin-right : 50px;
+      margin-right : 30px;
       font-size: 12px;
    }
    
@@ -31,7 +31,8 @@
 </style>
 </head>
 <body>
-  <div id="wrap" style="background-color: #6d5d95;">
+  <div id="wrap" style="background-color: #6d5d95; padding:20px 8px 40px 20px;margin:-20px -8px -40px -20px;">
+  <div style="width:1000px; margin:0px auto;">
         <div id="log" style="background-color: #6d5d95;">
            <c:choose>
               <c:when test="${login=='ok' }">
@@ -48,6 +49,7 @@
      <p id="logo" style="background-color: #6d5d95;">
         <img src="../images/logo_typo2.png" alt="image" width="200px" style="">
      </p>
+  </div>
   </div>
 </body>
 </html>
